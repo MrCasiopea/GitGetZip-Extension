@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "GitGetZip",
+  "version": "1.1",
+  "description": "Download any GitHub repository as a ZIP file with a single click.",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "Descargar ZIP de GitHub",
+    "default_icon": "iconggz.png"
+  },
+  "icons": {
+    "128": "iconggz.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
